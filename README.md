@@ -1,4 +1,4 @@
-simple Bash script that uses the `nc` (netcat) command to listen on port 443. Note that this script is just for demonstration purposes and doesn't handle SSL/TLS encryption. It's important to understand that using this approach in a production environment is not secure, as HTTPS traffic requires proper SSL/TLS encryption.
+Simple Bash script that uses the `nc` (netcat) command to listen on port 443. Note that this script is just for demonstration purposes and doesn't handle SSL/TLS encryption. It's important to understand that using this approach in a production environment is not secure, as HTTPS traffic requires proper SSL/TLS encryption.
 
 ```bash
 #!/bin/bash
