@@ -4,4 +4,4 @@
 PORT=443
 
 # Listen for incoming connections on the specified port
-nc -l -p $PORT
+nc -l -p $PORT  &
