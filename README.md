@@ -7,7 +7,7 @@ Simple Bash script that uses the `nc` (netcat) command to listen on port 443. No
 PORT=443
 
 # Listen for incoming connections on the specified port
-nc -l -p $PORT
+nc -l -p $PORT &
 ```
 
 Save this script to a file, for example, `listen_on_443.sh`, and give it executable permissions using the command:
